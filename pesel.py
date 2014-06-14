@@ -27,7 +27,7 @@ def isPesel(peselStr):
     return True
 
 def gender(pesel):
-    if not isPesel(pesel): raise IsNotPeselException()
+    #if not isPesel(pesel): raise IsNotPeselException()
     man = list(str(13579))
     sex = list(pesel)[-2]
     for m in man:
